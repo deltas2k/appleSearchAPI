@@ -14,7 +14,7 @@ struct MusicTopLevelDictionary: Decodable {
 
 struct MusicSearchResult: Decodable {
     let artistName: String
-    let trackName: String
+    let trackName: String?
     let artworkUrl100: String?
 }
 
